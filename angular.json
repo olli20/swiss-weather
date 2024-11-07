@@ -23,6 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "allowedCommonJsDependencies": ["ajv", "ajv-formats"],
             "outputPath": "dist/swiss-weather",
             "index": "src/index.html",
             "browser": "src/main.ts",
